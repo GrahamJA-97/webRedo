@@ -5,52 +5,68 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./resources/CSS/index.css">
+        
     </head>
 
     <body>
         <header>
-            <nav class="navbar navbar-light bg-info">
-                <a class="nav-brand" href="./index.html">Home Page</a>
-                |
-                <a href="./connect.html"> Get Connected </a>
-                |
-                <a href="https://www.jmuiv.com/" target="_blank" rel="noopener noreferrer">JMUIV Website</a>
+            <nav class="navbar">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./connect.html">Get Connected!</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://www.jmuiv.com/" target="_blank" rel="noopener noreferrer">JMUIV Website</a>
+                    </li>
+                </ul>
             </nav>
         </header>
-        <main class="col-md-12">
-            <h1>We are the Mom and Pop Shop!</h1>
-            <section>
-                <h3>Learn more about us and what we do...</h3>
-                <figure>
-                    <img src="./resources/small_group.JPG" width="666" height="500" alt="Spring fling 2019">
-                </figure>
-                <article>
-                    <h2>Who are we?</h2>
-                    <p>
-                        We are an IV (InterVarsity christian fellowship) small group, and all that means is that we are just a bunch of guys who want to do life together and grow in our faith!
-                    </p>
-                </article>
-                <article>
-                    <h2>What do we do?</h2>
-                    <p>
-                        We do lots of things together, some just for fun and some that are more meaningful. We try to foster a community of accountability and encouragement. The central theme of our group is to welcome all and teach them what we have learned about the Lord, and to provide a safe place for people to work through the challenges of emerging adulthood.
-                    </p>
-                </article>
-                <article>
-                    <h2>Events that we attend/host?</h2>
-                    <p>
-                        We host and participate in a variety of things...
-                    </p>
-                    <ul>
-                        <li>Small Group Hangout (usually a bible study) on Thursday nights</li>
-                        <li>Large Group service (all of IV meets up)  on Friday nights</li>
-                        <li>One-on-One meetups during the semester to continue to build friendships</li>
-                        <li>Accountability partners to help keep us on the straight an narrow</li>
-                    </ul>
-                </article>
-            </section>
-        </main>
-
+        <div class="bg-primary">
+            <main class="container">
+                <section>
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-header">We are the Mom and Pop Shop!</h1>
+                        </div>
+                    </div>
+                    <img class="rounded img-fluid" src="./resources/small_group.JPG" alt="Spring fling 2019">
+                    
+                    <article class="card">
+                        <div class="card-body">
+                            <h2 class="card-header">Who are we?</h2>
+                            <p class="cards-text">
+                                We are an IV (InterVarsity christian fellowship) small group, and all that means is that we are just a bunch of guys who want to do life together and grow in our faith!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-body">
+                            <h2 class="card-header">What do we do?</h2>
+                            <p class="cards-text">
+                                We do lots of things together, some just for fun and some that are more meaningful. We try to foster a community of accountability and encouragement. The central theme of our group is to welcome all and teach them what we have learned about the Lord, and to provide a safe place for people to work through the challenges of emerging adulthood.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-body">
+                            <h2 class="card-header">Events that we attend/host?</h2>
+                            <p class="cards-text">
+                                We host and participate in a variety of things...
+                            </p>
+                            <ul>
+                                <li>Small Group Hangout (usually a bible study) on Thursday nights</li>
+                                <li>Large Group service (all of IV meets up)  on Friday nights</li>
+                                <li>One-on-One meetups during the semester to continue to build friendships</li>
+                                <li>Accountability partners to help keep us on the straight an narrow</li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </main>
+        </div>
         <footer>
 
         </footer>
